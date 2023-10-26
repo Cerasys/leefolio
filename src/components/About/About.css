@@ -11,7 +11,7 @@
 
 .about__gradient {
   /* Adjust the font size as needed */
-  background: linear-gradient(45deg, #db7c34, #c45959);
+  background: linear-gradient(45deg, #e38c4a, #c45959);
   /* Adjust gradient colors as desired */
   -webkit-background-clip: text;
   background-clip: text;

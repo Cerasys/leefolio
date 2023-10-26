@@ -1,6 +1,4 @@
 import aboutpic from './components/Access/mePhoto.jpg'
-import darklogo from './components/Access/logo_dark.png'
-import whitelogo from './components/Access/logo_white.png'
 import orangelogo from './components/Access/logo_orange.png'
 
 const header = {

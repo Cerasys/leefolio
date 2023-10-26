@@ -11,7 +11,11 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact'>
-        {resume && <Button variant='warning'>Get in touch</Button>}
+        {resume && (
+          <Button variant='warning' href='mailto:nathanblee@gmail.com'>
+            Get in touch
+          </Button>
+        )}
       </div>
     </section>
   )
