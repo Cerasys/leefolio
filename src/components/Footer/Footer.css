@@ -4,6 +4,13 @@
   text-align: center;
 }
 
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .footer__link {
   font-size: 0.9rem;
   font-weight: 600;
@@ -15,4 +22,14 @@
     padding: 2em;
     margin-top: 3em;
   }
+}
+
+.footer__contact {
+  margin-top: 2.4em;
+}
+
+/* Add spacing between icons */
+.footer__contact .link.link--icon+.link.link--icon {
+  margin-left: 10px;
+  /* Adjust the spacing as needed */
 }
