@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button'
 import { about, contact, portfolio } from '../../portfolio'
 
 const About = () => {
-  const { name, description, resume, contact } = about
+  const { name, description, resume } = about
 
   return (
     <section className='about'>
@@ -31,7 +31,11 @@ const About = () => {
         >
           Portfolio
         </Button>
-        <Button className='mb-2' variant='danger' href={`mailto:${contact}`}>
+        <Button
+          className='mb-2'
+          variant='danger'
+          href={`mailto:${contact.email}`}
+        >
           Get in touch
         </Button>
       </div>

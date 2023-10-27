@@ -19,7 +19,7 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {projects.length ? (
+        {portfolio && (
           <li className='nav__list-item'>
             <a
               href={portfolio}
@@ -31,12 +31,12 @@ const Navbar = () => {
               Portfolio
             </a>
           </li>
-        ) : null}
+        )}
 
         {contact.email ? (
           <li className='nav__list-item'>
             <a
-              href='#contact'
+              href={`mailto:${contact.email}`}
               onClick={toggleNavList}
               className='link link--nav'
             >
