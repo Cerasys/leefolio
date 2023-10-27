@@ -8,6 +8,9 @@
   color: var(--clr-primary);
 }
 
+.mb-2 {
+  margin: 5px 10px 5px 10px;
+}
 
 .about__gradient {
   /* Adjust the font size as needed */
@@ -22,7 +25,7 @@
 }
 
 .about__desc {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   max-width: 48rem;
   font-weight: 500;
   color: linear-gradient(45deg, #333, #000);
