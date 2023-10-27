@@ -14,6 +14,11 @@
   --bs-accordion-btn-focus-box-shadow: none !important;
 }
 
+.accordian a {
+  text-decoration: none;
+  color: rgb(223, 223, 223) !important;
+}
+
 .accordian button {
   font-weight: 500 !important;
   font-size: 1.2rem;

@@ -45,7 +45,7 @@ ul {
 
 a {
   text-decoration: underline;
-  color: rgb(223, 223, 223) !important;
+  color: rgb(223, 223, 223);
 }
 
 @media (max-width: 900px) {
