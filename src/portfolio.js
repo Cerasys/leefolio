@@ -18,8 +18,11 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/nlnathanlee/',
     github: 'https://github.com/Cerasys',
+    instagram: 'https://www.instagram.com/nathan.b.lee/',
   },
 }
+
+const portfolio = 'https://nblee.notion.site/bd37d0430b3c4ca5b057ac968a57b7d1'
 
 const projects = []
 
@@ -30,4 +33,4 @@ const contact = {
   email: 'nathanblee@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, portfolio }

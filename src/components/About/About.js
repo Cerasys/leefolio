@@ -1,9 +1,9 @@
 import './About.css'
 import Button from 'react-bootstrap/Button'
-import { about } from '../../portfolio'
+import { about, contact, portfolio } from '../../portfolio'
 
 const About = () => {
-  const { name, description, resume } = about
+  const { name, description, resume, contact } = about
 
   return (
     <section className='about'>
@@ -25,17 +25,13 @@ const About = () => {
         <Button
           className='mb-2'
           variant='warning'
-          href='https://nblee.notion.site/bd37d0430b3c4ca5b057ac968a57b7d1?v=4de55da4101147b5a8ad7b9841cf34cb&pvs=4'
+          href={portfolio}
           target='_blank'
           rel='noopener noreferrer'
         >
           Portfolio
         </Button>
-        <Button
-          className='mb-2'
-          variant='danger'
-          href='mailto:nathanblee@gmail.com'
-        >
+        <Button className='mb-2' variant='danger' href={`mailto:${contact}`}>
           Get in touch
         </Button>
       </div>
