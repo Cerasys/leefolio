@@ -7,7 +7,8 @@ const Projects = () => {
 
   return (
     <section id='projects' className='section projects'>
-      <ProjectContainer />
+      {/* <ProjectContainer /> */}
+      <h2>See my Portfolio</h2>
     </section>
   )
 }
