@@ -19,6 +19,7 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/nlnathanlee/',
     github: 'https://github.com/Cerasys',
     instagram: 'https://www.instagram.com/nathan.b.lee/',
+    spotify: 'https://open.spotify.com/user/aixora?si=91a1d3cbdf224e1c',
   },
 }
 

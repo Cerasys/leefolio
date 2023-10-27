@@ -17,6 +17,38 @@ const QA = () => {
           <Accordion className='accordian'>
             <hr />
             <Accordion.Item eventKey='0'>
+              <Accordion.Header>My skillsets</Accordion.Header>
+              <Accordion.Body>
+                <ul className='qa__ul'>
+                  <li>
+                    <strong>Product:</strong> Raising products from infancy to
+                    adulthood - from ideation/conception, discovery, validating,
+                    building, launching, and measuring;
+                  </li>
+                  <li>
+                    <strong>Design:</strong> Sketch/Figma, UX/UI, HTML/CSS/JS,
+                    and other sparkly fun eye-candy tools & methodologies;
+                  </li>
+                  <li>
+                    <strong>Growth:</strong> Acquisition, Activation,
+                    Conversion, Monetization. Boom baby🦙;
+                  </li>
+                  <li>
+                    <strong>Engineering:</strong> My years as a code🐵 have
+                    taught me to collaborate with engineers - ability to code or
+                    have context behind technical feasibility, architecture,
+                    estimates based on current schema, tech debt, etc;
+                  </li>
+                </ul>
+                <p>
+                  Overall, I'm a generalist who has and who will wear hats
+                  across all areas of the project to ensure the success of the
+                  business~
+                </p>
+              </Accordion.Body>
+            </Accordion.Item>{' '}
+            <hr />
+            <Accordion.Item eventKey='1'>
               <Accordion.Header>Why I do what I do</Accordion.Header>
               <Accordion.Body>
                 <p>When I die, I want people to say these things about me: </p>
@@ -35,36 +67,6 @@ const QA = () => {
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
-            <hr />
-            <Accordion.Item eventKey='1'>
-              <Accordion.Header>My skillsets</Accordion.Header>
-              <Accordion.Body>
-                <ul className='qa__ul'>
-                  <li>
-                    <strong>Product:</strong> Managing entire lifecycle from
-                    ideation/conception, discovery, validating, building,
-                    launching, and measuring;
-                  </li>
-                  <li>
-                    <strong>Design:</strong> Sketch/Figma, UX/UI, HTML/CSS/JS;
-                  </li>
-                  <li>
-                    <strong>Growth:</strong> Acquisition, Activation,
-                    Conversion, Monetization;
-                  </li>
-                  <li>
-                    <strong>Eng:</strong> Collaborate with engineers - ability
-                    to code or have context behind technical feasibility,
-                    architecture, estimates based on current schema, tech debt,
-                    etc;
-                  </li>
-                </ul>
-                <p>
-                  Overall, I consider myself to be a generalist who can and will
-                  wear hats across all areas of the business to ensure success.
-                </p>
-              </Accordion.Body>
-            </Accordion.Item>{' '}
             <hr />
             <Accordion.Item eventKey='2'>
               <Accordion.Header>
@@ -91,28 +93,6 @@ const QA = () => {
                         rel='noopener noreferrer'
                       >
                         - Portfolio
-                      </a>
-                    </strong>
-                  </li>
-                  <li>
-                    <strong>
-                      <a
-                        href={about.social.github}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        - Github
-                      </a>
-                    </strong>
-                  </li>
-                  <li>
-                    <strong>
-                      <a
-                        href={`mailto:${contact}`}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        - Email
                       </a>
                     </strong>
                   </li>
@@ -156,11 +136,22 @@ const QA = () => {
                         - Github
                       </a>
                     </strong>
+                  </li>{' '}
+                  <li>
+                    <strong>
+                      <a
+                        href={about.social.spotify}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        - Spotify
+                      </a>
+                    </strong>
                   </li>
                   <li>
                     <strong>
                       <a
-                        href={`mailto:${contact}`}
+                        href={`mailto:${contact.email}`}
                         target='_blank'
                         rel='noopener noreferrer'
                       >
