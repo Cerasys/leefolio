@@ -44,7 +44,7 @@ const Profile = () => {
                 <li>
                   Launching{' '}
                   <a
-                    href='https://personaai.ca/'
+                    href='https://nblee.notion.site/PersonaAI-CPO-CoFounder-fd3ccabef7cc4d22a084b984a5dfa444'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -55,7 +55,7 @@ const Profile = () => {
                 <li>
                   Overhauling{' '}
                   <a
-                    href='https://healingrooms.com/'
+                    href='https://nblee.notion.site/Healing-Rooms-Ministries-PM-cca22ee3243e4c5488918ba006ca1927'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -67,7 +67,7 @@ const Profile = () => {
                 <li>
                   Created and Kickstarted a board game called{' '}
                   <a
-                    href='https://jailbirdgame.com/'
+                    href='https://nblee.notion.site/JailBird-CEO-CoFounder-847c7ba0591543cb80648771d831e754'
                     target='_blank'
                     rel='noopener noreferrer'
                   >

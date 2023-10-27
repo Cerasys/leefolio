@@ -12,9 +12,15 @@
     clear: right;
 }
 
-.text-container p {
+.text-container p,
+li {
     margin-top: 1em;
+    font-size: 1.08rem;
     font-weight: 500;
+}
+
+.text-container a {
+    color: inherit;
 }
 
 .portfolio-image {
