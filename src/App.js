@@ -8,6 +8,9 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 import Profile from './components/Profile/Profile'
+import ReactGA from 'react-ga'
+ReactGA.initialize('G-HRJXZGL9JT')
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
