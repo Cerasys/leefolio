@@ -31,13 +31,15 @@ const About = () => {
         >
           Portfolio
         </Button>
-        <Button
-          className='mb-2'
-          variant='danger'
-          href={`mailto:${contact.email}`}
-        >
-          Get in touch
-        </Button>
+        {contact.email && (
+          <Button
+            className='mb-2'
+            variant='danger'
+            href={`mailto:${contact.email}`}
+          >
+            Get in touch
+          </Button>
+        )}
       </div>
     </section>
   )

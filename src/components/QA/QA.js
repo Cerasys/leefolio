@@ -4,8 +4,6 @@ import { about, resume, contact, portfolio } from '../../portfolio'
 import { Container, Row } from 'react-bootstrap'
 
 const QA = () => {
-  if (!contact.email) return null
-
   return (
     <section className='section contact center' id='contact'>
       <Container>
@@ -148,17 +146,19 @@ const QA = () => {
                       </a>
                     </strong>
                   </li>
-                  <li>
-                    <strong>
-                      <a
-                        href={`mailto:${contact.email}`}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        - Email
-                      </a>
-                    </strong>
-                  </li>
+                  {contact.email && (
+                    <li>
+                      <strong>
+                        <a
+                          href={`mailto:${contact.email}`}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          - Email
+                        </a>
+                      </strong>
+                    </li>
+                  )}
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
