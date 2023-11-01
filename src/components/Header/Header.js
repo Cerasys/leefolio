@@ -7,7 +7,11 @@ const Header = () => {
 
   return (
     <header className='header center'>
-      {logo && <img height='50px' alt='Avatar placeholder' src={logo} />}
+      {logo && (
+        <a href='/'>
+          <img height='50px' alt='Avatar placeholder' src={logo} />
+        </a>
+      )}
       <Navbar />
     </header>
   )
