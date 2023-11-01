@@ -32,11 +32,7 @@ const About = () => {
           Portfolio
         </Button>
         {contact.email && (
-          <Button
-            className='mb-2'
-            variant='danger'
-            href={`mailto:${contact.email}`}
-          >
+          <Button className='mb-2' variant='danger' href={`/contact`}>
             Get in touch
           </Button>
         )}

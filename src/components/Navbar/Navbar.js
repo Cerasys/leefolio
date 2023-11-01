@@ -36,7 +36,7 @@ const Navbar = () => {
         {contact.email ? (
           <li className='nav__list-item'>
             <a
-              href={`mailto:${contact.email}`}
+              href={`/contact`}
               onClick={toggleNavList}
               className='link link--nav'
             >

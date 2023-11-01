@@ -149,13 +149,7 @@ const QA = () => {
                   {contact.email && (
                     <li>
                       <strong>
-                        <a
-                          href={`mailto:${contact.email}`}
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          - Email
-                        </a>
+                        <a href={`/contact`}>- Email</a>
                       </strong>
                     </li>
                   )}

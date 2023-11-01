@@ -1,0 +1,25 @@
+.modal-backdrop {
+    background-color: #161618;
+    --bs-backdrop-opacity: .98 !important;
+    color: black !important;
+}
+
+.modal-header {
+    color: black !important;
+}
+
+.modal-header-error {
+    color: red !important;
+}
+
+.modal-body {
+    color: darkslategray !important;
+}
+
+.modal-body-error {
+    color: darkred !important;
+}
+
+.contact-form {
+    height: 90vh;
+}
