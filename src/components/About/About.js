@@ -11,7 +11,7 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact'>
-        {resume && (
+        {/* {resume && (
           <Button
             className='mb-2'
             variant='secondary'
@@ -30,7 +30,7 @@ const About = () => {
           rel='noopener noreferrer'
         >
           Portfolio
-        </Button>
+        </Button> */}
         {contact.email && (
           <Button className='mb-2' variant='danger' href={`/contact`}>
             Get in touch
