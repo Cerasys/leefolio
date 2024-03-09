@@ -4,7 +4,7 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, contact, portfolio } from '../../portfolio'
+import { projects, contact, business, portfolio } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -19,6 +19,19 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
+        {business && (
+          <li className='nav__list-item'>
+            <a
+              href={business}
+              onClick={toggleNavList}
+              className='link link--nav'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Current Project
+            </a>
+          </li>
+        )}
         {portfolio && (
           <li className='nav__list-item'>
             <a

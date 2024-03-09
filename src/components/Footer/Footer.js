@@ -1,8 +1,10 @@
 import './Footer.css'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import InstagramIcon from '@mui/icons-material/Instagram'
 import ContactPageIcon from '@mui/icons-material/ContactPage'
-import { about } from '../../portfolio'
+import { about, business } from '../../portfolio'
+import { Instagram } from '@material-ui/icons'
 
 const Footer = () => {
   const { social } = about
@@ -25,7 +27,7 @@ const Footer = () => {
               </a>
             )}
             <a
-              href='https://drive.google.com/file/d/1wlu5zUxQfA3eyNtvGQ-cn7LMwt1uxG4k/view?usp=sharing'
+              href={business}
               aria-label='resume'
               className='link link--icon'
               target='_blank'
@@ -33,15 +35,15 @@ const Footer = () => {
             >
               <ContactPageIcon />
             </a>
-            {social.github && (
+            {social.instagram && (
               <a
-                href={social.github}
-                aria-label='github'
+                href={social.instagram}
+                aria-label='instagram'
                 className='link link--icon'
                 target='_blank'
                 rel='noreferrer'
               >
-                <GitHubIcon />
+                <InstagramIcon />
               </a>
             )}
           </>
