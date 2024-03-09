@@ -1,0 +1,16 @@
+.text-container-highlight {
+  background-color: #ff5d01;
+  margin: auto;
+  height: 100px;
+  width: 70%;
+  padding: 10px;
+  top: 50%;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.text-container-highlight p {
+  color: white !important;
+  text-align: center;
+  padding-top: 12px;
+}
