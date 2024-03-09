@@ -1,51 +1,50 @@
 /* Profile.css */
 
 .portfolio-description {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 .text-container {
-    clear: right;
+  clear: right;
 }
 
 .text-container p,
 li {
-    margin-top: 1em;
-    font-size: 1.08rem;
-    font-weight: 500;
+  margin-top: 1em;
+  font-size: 1.08rem;
+  font-weight: 500;
 }
 
 .text-container a {
-    color: inherit;
+  color: inherit;
 }
 
 .portfolio-image {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .ul-profile {
-    list-style-type: disc;
+  list-style-type: disc;
 }
-
 
 /* Media query for smaller screens (e.g., phones) */
 @media (max-width: 768px) {
-    .portfolio-description {
-        flex-direction: column;
-        text-align: left;
-    }
+  .portfolio-description {
+    flex-direction: column;
+    text-align: left;
+  }
 
-    .image-container {
-        float: none;
-        margin: 0;
-    }
+  .image-container {
+    float: none;
+    margin: 0;
+  }
 
-    .text-container {
-        clear: none;
-        padding: 0 0 0 0;
-    }
+  .text-container {
+    clear: none;
+    padding: 0 0 0 0;
+  }
 }
