@@ -19,29 +19,31 @@ const QA = () => {
               <Accordion.Body>
                 <ul className='qa__ul'>
                   <li>
-                    <strong>Product:</strong> Raising products from infancy to
-                    adulthood - from ideation/conception, discovery, validating,
-                    building, launching, and measuring;
+                    <strong>Marketing:</strong> Business has physics. The only
+                    way you can get people to buy your stuff is if you get
+                    people to find your stuff;
                   </li>
+                  <br />
                   <li>
-                    <strong>Design:</strong> Sketch/Figma, UX/UI, HTML/CSS/JS,
-                    and other sparkly fun eye-candy tools & methodologies;
+                    <strong>Growth:</strong> Get new customers, help them spend
+                    more, and make them stay longer. Boom baby🦙;
                   </li>
+                  <br />
                   <li>
-                    <strong>Growth:</strong> Acquisition, Activation,
-                    Conversion, Monetization. Boom baby🦙;
+                    <strong>Coaching:</strong> I'll go slow enough that you
+                    never get overwhelmed, but fast enough that we get results;
                   </li>
+                  <br />
                   <li>
-                    <strong>Engineering:</strong> My years as a code🐵 have
-                    taught me to collaborate with engineers - ability to code or
-                    have context behind technical feasibility, architecture,
-                    estimates based on current schema, tech debt, etc;
+                    <strong>Engineering:</strong> I'm a closet code 🐵. Let's
+                    build something together;
                   </li>
                 </ul>
+                <br />
+
                 <p>
-                  Overall, I'm a generalist who has and who will wear hats
-                  across all areas of the project to ensure the success of the
-                  business~
+                  I'm committed to helping business owners win, and I'll do
+                  whatever it takes to get them there.
                 </p>
               </Accordion.Body>
             </Accordion.Item>{' '}
