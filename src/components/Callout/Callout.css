@@ -3,14 +3,13 @@
   margin: auto;
   height: 100px;
   width: 70%;
-  padding: 10px;
+  padding: 15px;
   top: 50%;
   align-items: center;
   border-radius: 8px;
 }
 
-.text-container-highlight p {
+.text-container-highlight h5 {
   color: white !important;
   text-align: center;
-  padding-top: 12px;
 }

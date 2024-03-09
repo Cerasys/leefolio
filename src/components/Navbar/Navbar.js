@@ -28,10 +28,11 @@ const Navbar = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Current Project
+              For therapists ONLY!
             </a>
           </li>
         )}
+        {/*
         {portfolio && (
           <li className='nav__list-item'>
             <a
@@ -45,6 +46,7 @@ const Navbar = () => {
             </a>
           </li>
         )}
+        */}
 
         {contact.email ? (
           <li className='nav__list-item'>
