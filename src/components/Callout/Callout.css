@@ -1,11 +1,11 @@
 .text-container-highlight {
   background-color: #ff5d01;
   margin: auto;
-  height: 100px;
+  /* Center horizontally */
+  height: auto;
   width: 70%;
+  /* Adjust the width as needed */
   padding: 15px;
-  top: 50%;
-  align-items: center;
   border-radius: 8px;
 }
 

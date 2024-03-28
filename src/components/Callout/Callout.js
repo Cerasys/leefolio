@@ -6,12 +6,12 @@ import './Callout.css'
 const Callout = (second) => {
   return (
     <section className='callout'>
-      <Container>
+      <Container className='text-center'>
         <Row className='justify-content-md-center'>
-          <Col sm={8} xl={10}>
+          <Col sm={10} className='text-center'>
             <div className='text-container-highlight'>
               <strong>
-                <h5>
+                <h5 className='text-center'>
                   I'm working on something NEW! <br />
                   If you're a therapist who wants to fill your private practice,
                   keep it full forever, and do it all hassle-free, let's talk!
