@@ -42,7 +42,7 @@ const About = () => {
         )}*/}
         {business && (
           <Button className='mb-2' variant='danger' href={business}>
-            Yes! Help me grow my practice!
+            Yes! Help me scale my business!
           </Button>
         )}
       </div>

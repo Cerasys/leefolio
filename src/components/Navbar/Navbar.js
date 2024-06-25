@@ -28,7 +28,7 @@ const Navbar = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              For therapists ONLY!
+              For investors ONLY!
             </a>
           </li>
         )}

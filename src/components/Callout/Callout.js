@@ -13,8 +13,8 @@ const Callout = (second) => {
               <strong>
                 <h5 className='text-center'>
                   I'm working on something NEW! <br />
-                  If you're a therapist who wants to fill your private practice,
-                  keep it full forever, and do it all hassle-free, let's talk!
+                  If you're a real estate investor who wants to get more deals,
+                  let's talk!
                 </h5>
               </strong>
             </div>
