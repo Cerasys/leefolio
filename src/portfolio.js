@@ -12,7 +12,7 @@ const about = {
   name: 'Nathan Lee',
   role: 'Full stack developer',
   description:
-    '🇺🇸 🇹🇼 entrepreneur passionate about helping business owners win',
+    '🇺🇸 🇹🇼 entrepreneur passionate about helping real estate investors win',
   resume:
     'https://drive.google.com/file/d/1wlu5zUxQfA3eyNtvGQ-cn7LMwt1uxG4k/view?usp=sharing',
   social: {

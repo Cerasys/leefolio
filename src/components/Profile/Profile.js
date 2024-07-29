@@ -45,9 +45,8 @@ const Profile = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                       >
-                        [CURRENTLY BUILDING]: The ultimate bootcamp for
-                        therapreneurs (therapist entrepreneur) to launch their
-                        private practice.
+                        [CURRENTLY BUILDING]: The ultimate lead machine for real
+                        estate investors to scale the number of deals they do.
                       </a>
                     </b>{' '}
                   </li>
