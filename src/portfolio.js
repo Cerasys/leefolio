@@ -25,7 +25,7 @@ const about = {
 
 const portfolio = 'https://nblee.notion.site/bd37d0430b3c4ca5b057ac968a57b7d1'
 
-const business = 'https://prescelta.com'
+const business = 'https://500flips.com'
 
 const projects = []
 
@@ -33,7 +33,7 @@ const skills = []
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'nathan@prescelta.com',
+  email: 'nathan@500flips.com',
 }
 
 export { header, business, about, projects, skills, contact, portfolio }
