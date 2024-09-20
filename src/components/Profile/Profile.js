@@ -45,8 +45,9 @@ const Profile = () => {
                         target='_blank'
                         rel='noopener noreferrer'
                       >
-                        [CURRENTLY BUILDING]: The ultimate lead machine for real
-                        estate investors to scale the number of deals they do.
+                        [CURRENTLY BUILDING]: The ultimate lead machine for
+                        business owners to scale their operations. Get 120
+                        appointments per week with our hassle free system.
                       </a>
                     </b>{' '}
                   </li>

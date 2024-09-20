@@ -28,7 +28,7 @@ const Navbar = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              For investors ONLY!
+              For business owners ONLY!
             </a>
           </li>
         )}
