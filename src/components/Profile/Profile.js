@@ -46,8 +46,8 @@ const Profile = () => {
                         rel='noopener noreferrer'
                       >
                         [CURRENTLY BUILDING]: The ultimate lead machine for
-                        business owners to scale their operations. Get 120
-                        appointments per week with our hassle free system.
+                        coaches to scale their operations. Get 20 bookings per
+                        week with our autopilot system.
                       </a>
                     </b>{' '}
                   </li>
